@@ -366,8 +366,9 @@ Additional context menu items contribute to the total limit of 5 buttons on a to
       timeout: 6000, //keep-a-live in ms
       onActivated: ()=>{ console.log("activated") },
       onDismissed: (reason)=>{ console.log(reason) }
+    }
   })
-  .then(()=> console.log("Notified")
+  .then(()=> console.log("Notified"))
   .catch(err => console.error(err));
   ```
   
